@@ -32,7 +32,7 @@ function makeInt(n){
     return n + " is already a number";
   }
   else {
-    return parseInt(n);
+    return parseInt(n, 10);
   }
 }
 
