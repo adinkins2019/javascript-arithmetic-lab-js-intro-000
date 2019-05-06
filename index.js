@@ -30,17 +30,17 @@ function dec(n){
 function makeInt(n){
   if (typeof(n) === "number") {
     return n + " is already a number";
-  } 
+  }
   else {
     return parseInt(n);
-  } 
+  }
 }
 
 function preserveDecimal(n) {
   if (typeof(n) === "number") {
     return n + " is already a number";
-  } 
+  }
   else {
     return parseFloat(n);
-  } 
+  }
 }
