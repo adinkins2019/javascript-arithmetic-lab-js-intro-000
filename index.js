@@ -18,3 +18,29 @@ function divide(a,b){
     return a / b;
   }
 }
+
+function inc(n){
+  return n++;
+}
+
+function dec(n){
+  return n--;
+}
+
+function makeInt(n){
+  if (typeof(n) === "number") {
+    return n + " is already a number";
+  } 
+  else {
+    return parseInt(n);
+  } 
+}
+
+function preserveDecimal(n) {
+  if (typeof(n) === "number") {
+    return n + " is already a number";
+  } 
+  else {
+    return parseFloat(n);
+  } 
+}
